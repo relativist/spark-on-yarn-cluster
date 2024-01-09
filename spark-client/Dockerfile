@@ -48,6 +48,7 @@ spark.shuffle.service.enabled true \n\
 spark.driver.extraJavaOptions -Dderby.system.home=/spark-derby-system \n\
 ' > /opt/spark/conf/spark-defaults.conf
 
+## Можно подложить сюда свою версию java и ее использовать!
 #RUN rm -rf /usr/lib/jvm/java-8-openjdk-amd64
 #ADD openjdk-8u332-b09 /usr/lib/jvm/java-8-openjdk-amd64
 
