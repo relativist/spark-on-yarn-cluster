@@ -1,4 +1,7 @@
-# Поднятие кластера hadoop hdfs spark через docker образы.
+# Поднятие кластера (hadoop, hdfs, spark) через docker образы.
+## Версии как на гостехе: 
+### spark 3.0.1
+### hadoop 3.1.3
 
 ## Подготовка:
 /etc/hosts:
