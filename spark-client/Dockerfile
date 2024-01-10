@@ -53,6 +53,6 @@ spark.driver.extraJavaOptions -Dderby.system.home=/spark-derby-system \n\
 #ADD openjdk-8u332-b09 /usr/lib/jvm/java-8-openjdk-amd64
 
 ADD setup-history-server.sh /usr/local/bin
-COPY scripts /root/scripts
+#COPY scripts /root/scripts
 
 WORKDIR "/opt/spark"
